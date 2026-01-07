@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "KYT Insurance Growth Dashboard",
+  description: "12-month growth modelling dashboard",
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body style={{ margin: 0 }}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
